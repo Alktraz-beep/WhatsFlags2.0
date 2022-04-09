@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnalisisWhatsflags">
+    <!--ESTE ES EL APP BAR-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarAnalisis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#128C7E"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        >
+        <!--NOMBRE/COMPARTIR/ATRAS-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--ATRAS-->
+            <ImageButton
+                android:id="@+id/analisis_atras"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/atras"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:onClick="regresar"
+                />
+            <!--NOMBRE-->
+            <TextView
+                android:id="@+id/nombre_analisis_tv"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@+id/analisis_atras"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"
+                android:text="NOMBRE CHAT"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                />
+            <!--COMPARTIR-->
+            <ImageButton
+                android:id="@+id/compartir_analisis"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/compartir"
+                android:visibility="invisible"
+                />
+        </RelativeLayout>
+        <!--TABLAYOUT-->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout_analisis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabTextAppearance="@style/tamanoLetraTab"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextColor="@android:color/white"
+            app:tabIndicatorColor="@color/white"
+            >
+            <!--TAB FLAGS-->
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flags"
+                />
+            <!--TAB ANALISIS-->
+            t<com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Análisis"
+            />
+        </com.google.android.material.tabs.TabLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <!--PARA CAMBBIOS DE PAGINAS-->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewerpager_analisis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/drawable/bg_caja_circular.xml" value="0.106" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/drawable/bg_round.xml" value="0.125" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1875" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/drawable/mybutton.xml" value="0.139" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/drawable/tv_message_chat.xml" value="0.125" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/activity_analisis_whatsflags.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/espera_dialog.xml" value="0.1140625" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/fragment_fragmento1.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/fragment_fragmento2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/fragment_fragmento3.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/fragment_fragmento_analisis1.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/fragment_fragmento_analisis2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/groserias_layout.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/item_contacto_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/link_layout.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_compartir_i.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_emoji_pp.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_emojis_g.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_emojis_i.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_flags_i.xml" value="0.3011647254575707" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_flags_mf.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_grafica_pp.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_inicon_g.xml" value="0.25" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_inicon_i.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_iniconpp_g.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_instrucciones_i.xml" value="0.33" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_lapso_i.xml" value="0.21" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_links_i.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_mdiasmasmenos_i.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_mgroserias_i.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_mmultimedia_i.xml" value="0.25" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_mperdidas_i.xml" value="0.25" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_mtotales_i.xml" value="0.33" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_mvocabulario_i.xml" value="0.25" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_palabra_pp.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_tiempo_g.xml" value="0.33" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_tiempo_i.xml" value="0.33" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_tinvertido_i.xml" value="0.22150139017608897" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mensaje_totales_g.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/mybutton.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/layout/persona_puntuacion.xml" value="0.25" />
+        <entry key="..\:/Users/Josue Yafte/Documents/NetBeansProjects/whatsflagsv2/app/src/main/res/mipmap-anydpi-v26/ic_arrow_atras.xml" value="0.1875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

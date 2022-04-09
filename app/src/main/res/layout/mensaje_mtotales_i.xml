@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/tv_message_chat">
+        <TextView
+            android:id="@+id/titulo_mtotalesi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MENSAJES TOTALES:15643342"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            />
+        <!--DATOS USUARIO1 CON GRAFICA-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_nom1_mtotales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALKTRAZ"
+                android:textSize="15dp"
+                android:textColor="#128C7E"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tv_num1_mtotales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="156343534"
+                android:textSize="13dp"/>
+        </LinearLayout>
+            <!--GRAFICA 1-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="3dp">
+            <ImageView
+                android:id="@+id/iv_mtotales1"
+                android:layout_width="200dp"
+                android:layout_height="10dp"/>
+            <TextView
+                android:id="@+id/tv_pormtotales1"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="60%"
+                android:textSize="10dp"/>
+
+        </LinearLayout>
+        <!--DATOS USUARIO2 CON GRAFICA-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_nom2_mtotales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROD"
+                android:textSize="15dp"
+                android:textColor="#FF3333"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tv_num2_mtotales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="156343534"
+                android:textSize="13dp"/>
+        </LinearLayout>
+            <!--GRAFICA 2-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="5dp">
+            <ImageView
+                android:id="@+id/iv_mtotales2"
+                android:layout_width="100dp"
+                android:layout_height="10dp"/>
+            <TextView
+                android:id="@+id/tv_pormtotales2"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="60%"
+                android:textSize="10dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nombre_itemContacto"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:text="NOMBRE RAMIREZ VIRAMONES"
+        android:textSize="17dp" />
+    <TextView
+        android:id="@+id/redFlags_itemContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:text="15"
+        android:textSize="23dp"
+        />
+    <ImageView
+        android:id="@+id/flagsImage_itemContacto"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:src="@drawable/rfgf"
+        android:layout_toLeftOf="@+id/redFlags_itemContacto"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        />
+    <TextView
+        android:id="@+id/greenFlags_itemContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_toLeftOf="@+id/flagsImage_itemContacto"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:text="15"
+        android:textSize="23dp"
+        />
+</RelativeLayout>

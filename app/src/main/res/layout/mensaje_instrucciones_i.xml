@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        >
+        <Button
+            android:id="@+id/btn_irwsp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Ir a WhatsApp"
+            android:textColor="@color/white"
+            android:background="@drawable/mybutton"
+            android:shadowRadius="5"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_oops"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="¡Oops! "
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_margin="10dp"
+        android:text="1- Presiona el botón 'Ir a WhatsApp', te redirigirá a la aplicación.\n\n2-Selecciona el chat que deseas analizar.\n\n3-Da click al botón de opciones de chat.\n\n4-Selecciona 'más' y exportar sin archivos.\n\n5-Compartelo seleccionando la app de WhatsFlags."/>
+
+</LinearLayout>
